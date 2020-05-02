@@ -209,3 +209,80 @@ article #submittxt{
     left: 10px;
     top: 395px;
 }
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+.aboveTxt{
+    font-size: 40px;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 600;
+    /* position: relative;
+    top: 30px; */
+}
+.aboveTxt:hover{
+    color: #fff;
+    transition: linear 0.2s;
+}
+.cubeimage{
+    z-index: 500;
+    width: 370px;
+    height: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+#cubeimagesolutions{
+    margin-left: 80px;
+    margin-top: 15px;
+    background: rgb(27, 86, 248);
+}
+#cubeimageachievements{
+    width: 500px;
+    background: #1B98F8;
+    position: absolute;
+    left: 57px;
+    top: 152px;
+}
+#leftabsoluteblock{
+    background: linear-gradient(to right, #1b56f8, #1B98F8);
+    height: 800px;
+    width: 124px;
+    position: absolute;
+    top: -37px; 
+    left: 0px;
+    z-index: 600;
+}
+#seattlepanorama{
+    height: 446px;
+    width: 900px;
+    z-index: 2;
+    position: absolute;
+    left: 44px;
+    top: 213px;
+    border: none;
+}
+
+#aboutarticle{
+    display: flex;
+    flex-direction: column;
+}
+/* hovers-about */
+
+.cubeimage:hover{
+    transition: linear 0.5s;
+    width: 700px;
+}
+#cubeimageachievements:hover{
+    background: greenyellow;
+    width: 700px;
+}
+#cubeimagesolutions:hover{
+    background: greenyellow;
+}
+
+
+
