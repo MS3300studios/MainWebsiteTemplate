@@ -17,6 +17,7 @@ header{
     background: rgb(14, 14, 173);
     width: 1024px;
     height: 62px;
+    z-index: 100000000;
 }
 article{
     grid-area: article;
@@ -118,19 +119,20 @@ h1{
     animation-delay: 0.01s;
 }
 #detailbox{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 550px;
     border: solid 2px black;
     position: absolute;
-    left: 110px;
-    top: 155px;
+    left: 90px;
+    top: 120px;
+    /* top: 155px; */
     background: cornflowerblue;
 }
 #detailbox:hover{
     background: rgb(153, 177, 221);
 }
 #submitbutton{
-    margin-top: 70px;
+    margin-top: 15px;
 }
 #submitbutton:hover{
     animation-name: v1;
@@ -139,21 +141,21 @@ h1{
 }
 #h2detailbox{
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 30px;
+    margin-left: 70px;
 }
 #fname{
-    margin-left: 60px;
+    margin-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #lname{
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 #firstname{
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 #lastname{
-    margin-top: 16px;
+    margin-top: 20px;
 }
 #contactimg{
     width: 711px;
@@ -164,4 +166,8 @@ h1{
 }
 #contactarticle{
     background: #fdfdfd;
+}
+#message{
+    margin-top: 15px;
+    margin-left: 26px;
 }
