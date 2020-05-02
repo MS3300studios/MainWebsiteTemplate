@@ -171,3 +171,41 @@ h1{
     margin-top: 15px;
     margin-left: 26px;
 }
+article #submittxt{
+    width: 350px;
+    height: 350px;
+    margin-top: 190px;
+    margin-left: 304px;
+    z-index: 600;
+}
+#returnBtn{
+    width: 180px;
+    margin-left: 23px;
+}
+#returnBtn:hover{
+    animation-name: v1;
+    animation-duration: 1s;
+    animation-delay: 0.01s;
+}
+#submittxt #fourZeroFourtxt{
+    font-size: 100px;
+    font-family: fantasy;
+}   
+#laptop404background{
+    z-index: 500;
+    position: absolute;
+    left: 380px;
+    top: 296px;
+    width: 565px;
+    height: 440px;
+    border: none;
+}
+#submitimg{
+    width: 960px;
+    height: 346px;
+    border: none;
+    position: absolute;
+    z-index: 600;
+    left: 10px;
+    top: 395px;
+}
