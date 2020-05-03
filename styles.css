@@ -214,16 +214,15 @@ article #submittxt{
 /* ABOUT */
 /* ABOUT */
 /* ABOUT */
-.aboveTxt{
+.aboveTxt a{
     font-size: 40px;
-    color: #000;
+    color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     z-index: 600;
-    /* position: relative;
-    top: 30px; */
+    text-decoration: none;
 }
-.aboveTxt:hover{
-    color: #fff;
+.aboveTxt a:hover{
+    color: #000;
     transition: linear 0.2s;
 }
 .cubeimage{
@@ -234,11 +233,12 @@ article #submittxt{
     display: flex;
     justify-content: center;
     border-radius: 20px;
+    border: solid 2px white;
 }
 #cubeimagesolutions{
     margin-left: 80px;
     margin-top: 15px;
-    background: rgb(27, 86, 248);
+    background: #1B98F8;
 }
 #cubeimageachievements{
     width: 500px;
@@ -246,6 +246,13 @@ article #submittxt{
     position: absolute;
     left: 57px;
     top: 152px;
+}
+#cubeimagestory{
+    width: 500px;
+    background: #1B98F8;
+    position: absolute;
+    left: -26px;
+    top: 230px;
 }
 #leftabsoluteblock{
     background: linear-gradient(to right, #1b56f8, #1B98F8);
@@ -277,12 +284,18 @@ article #submittxt{
     width: 700px;
 }
 #cubeimageachievements:hover{
-    background: greenyellow;
+    background: rgba(14, 14, 173, 0.11);
+    border: black solid 2px;
     width: 700px;
 }
 #cubeimagesolutions:hover{
-    background: greenyellow;
+    background: rgba(14, 14, 173, 0.11);
+    border: black solid 2px;
 }
-
+#cubeimagestory:hover{
+    background: rgba(14, 14, 173, 0.11);
+    border: black solid 2px;
+    width: 700px;
+}
 
 
