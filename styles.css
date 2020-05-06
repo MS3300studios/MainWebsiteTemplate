@@ -297,5 +297,44 @@ article #submittxt{
     border: black solid 2px;
     width: 700px;
 }
+/* GALLERY */
+/* GALLERY */
+/* GALLERY */
+/* GALLERY */
+/* GALLERY */
+#articlegallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "img" "img"
+    "img" "img"
+    "img" "img";
+    height: 1050px;
+}
+.galleryimage{
+    width: 450px;
+    height: 300px;
+    margin-left: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.galleryimage:hover{
 
+}
+@media(max-width:360px){
+    #articlegallery{
+        display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "img"
+    "img"
+    "img"
+    "img"
+    "img"
+    "img";
+    height: 1500px;
+    }
+}
 
