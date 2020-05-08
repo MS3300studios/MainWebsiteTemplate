@@ -1,0 +1,7 @@
+#block1{
+    width: 100px;
+    height: 100px;
+    background: #000;
+    border: solid black 2px;
+    display: block;
+}

@@ -15,14 +15,14 @@ header{
     position: sticky;
     top: 0;
     background: rgb(14, 14, 173);
-    width: 1024px;
+    width: 100%;
     height: 62px;
     z-index: 100000000;
 }
 article{
     grid-area: article;
     background: white;
-    width: 1024px;
+    width: 100%;
     height: 700px;
     display: flex;
     justify-content: space-between;
@@ -30,11 +30,11 @@ article{
 footer{
     grid-area: footer;
     background: rgb(248, 245, 245);
-    width: 1024px;
+    width: 100%;
     height: 100px;
 }
 header nav{
-    width: auto;
+    width: 100%;
     margin-top: 12px;
     display: flex;
     justify-content: space-around;
@@ -322,6 +322,43 @@ article #submittxt{
 .galleryimage:hover{
 
 }
+/* LIGTHBOX */
+/* LIGTHBOX */
+/* LIGTHBOX */
+/* LIGTHBOX */
+/* LIGTHBOX */
+#lightbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100000000;
+    background: rgba(0,0,0,0.43);
+}
+#lightbox img{
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.63);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:360px){
     #articlegallery{
         display: grid;
