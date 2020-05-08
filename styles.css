@@ -258,6 +258,9 @@ article #submittxt{
     margin-left: 80px;
     margin-top: 15px;
     background: #1B98F8;
+    position: absolute;
+    left: 0px;
+    top: 294px;
 }
 #cubeimageachievements{
     width: 500px;
@@ -275,7 +278,7 @@ article #submittxt{
 }
 #leftabsoluteblock{
     background: linear-gradient(to right, #1b56f8, #1B98F8);
-    height: 800px;
+    height: 100%;
     width: 124px;
     position: absolute;
     top: -37px; 
@@ -284,7 +287,7 @@ article #submittxt{
 }
 #seattlepanorama{
     height: 838px;
-    width: 1146px;
+    width: 1920px;
     z-index: 2;
     position: absolute;
     left: 55px;
