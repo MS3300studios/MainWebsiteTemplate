@@ -1,3 +1,7 @@
+html body{
+    height: 100%;
+    margin: 0;
+}
 main{
     display: grid;
     grid-template-columns: 1fr;
@@ -9,6 +13,7 @@ main{
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
 }
 header{
     grid-area: header;
@@ -18,22 +23,35 @@ header{
     width: 100%;
     height: 62px;
     z-index: 100000000;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "logo" "nav"; */
 }
+/* header #logo{
+    grid-area: logo;
+    width: 124px;
+    height: 58px;
+
+} */
 article{
     grid-area: article;
     background: white;
     width: 100%;
     height: 700px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 footer{
     grid-area: footer;
     background: rgb(248, 245, 245);
     width: 100%;
     height: 100px;
+    
 }
 header nav{
+    /* grid-area: nav; */
     width: 100%;
     margin-top: 12px;
     display: flex;
@@ -78,20 +96,21 @@ header nav div:hover{
 #footertxt{
     margin-top: 73px;
     margin-left: 393px;
-}
+}   
 article img{
     border: solid 3px rgb(170, 151, 151);
-    margin-left: 80px;
-    margin-top: 20px;
+    margin-right: 80px;
+    margin-top: 50px;
     width: 420px;
     height: 560px;
 }
 #articletxt{
-    width: 300px;
+    width: 500px;
     height: 600px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 60px;
 }
 h1{
     font-size: 35px;
@@ -222,7 +241,7 @@ article #submittxt{
     text-decoration: none;
 }
 .aboveTxt a:hover{
-    color: #000;
+    color: rgb(107, 240, 46);
     transition: linear 0.2s;
 }
 .cubeimage{
@@ -264,12 +283,12 @@ article #submittxt{
     z-index: 600;
 }
 #seattlepanorama{
-    height: 446px;
-    width: 900px;
+    height: 838px;
+    width: 1146px;
     z-index: 2;
     position: absolute;
-    left: 44px;
-    top: 213px;
+    left: 55px;
+    top: -95px;
     border: none;
 }
 
@@ -284,16 +303,17 @@ article #submittxt{
     width: 700px;
 }
 #cubeimageachievements:hover{
-    background: rgba(14, 14, 173, 0.11);
+    background: rgba(14, 14, 173, 0.6);
     border: black solid 2px;
     width: 700px;
 }
 #cubeimagesolutions:hover{
-    background: rgba(14, 14, 173, 0.11);
+    background: rgba(14, 14, 173, 0.6);
     border: black solid 2px;
+    width: 500px;
 }
 #cubeimagestory:hover{
-    background: rgba(14, 14, 173, 0.11);
+    background: rgba(14, 14, 173, 0.6);
     border: black solid 2px;
     width: 700px;
 }
@@ -356,8 +376,9 @@ article #submittxt{
 
 
 
-
-
+/* media */
+/* media */
+/* media */
 
 @media(max-width:360px){
     #articlegallery{
