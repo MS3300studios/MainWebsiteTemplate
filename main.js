@@ -4,17 +4,6 @@ for (let img of imgs) {
     img.addEventListener('click', showLightbox)
 }
 // dodaj obsługę kliknięcia w zdjęcie
-// funkcja pokazująca lightbox-a
-function showLightbox(event) {
-    let lightboxDiv = document.querySelector('#lightbox')
-    lightboxDiv.style.display = "flex"
-    // pobranie adresu zdjęcia z klikniętego znacznika img
-    let imgSrc = event.target.src
-    // pobranie znacznika img z lightboxa
-    let lightboxImg = document.querySelector('#lightbox-img')
-    // wpisanie nowego adresu do img w lightboxie
-    lightboxImg.src = imgSrc
-}
 
 
 // obsługa zamykania lightbox-a
@@ -24,4 +13,20 @@ lightboxDiv.addEventListener('click', hideLightbox)
 // funkcja zamykająca lightbox
 function hideLightbox(event) {
     lightboxDiv.style.display = "none"
+    console.log("działa");
 }
+
+
+// funkcja pokazująca lightbox-a
+function showLightbox(event) {
+    let lightboxDiv = document.querySelector('#lightbox')
+    lightboxDiv.style.display = "flex"
+    // pobranie adresu zdjęcia z klikniętego znacznika img
+    let imgSrc = event.target.src
+    // pobranie znacznika img z lightboxa
+    let lightboxImg = document.querySelector('#lightbox_img')
+    // wpisanie nowego adresu do img w lightboxie
+    lightboxImg.src = imgSrc
+
+}
+
