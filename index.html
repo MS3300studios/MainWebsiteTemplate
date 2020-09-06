@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="enlargedPhoto.css">
     <title>Home</title>
 </head>
 <body>
@@ -26,7 +27,7 @@
             </nav>            
         </header>
         <article>
-            <img src="assets/photodog.jpg" alt="photo1">
+            <img id="smallimg" src="assets/photodog.jpg" alt="photo1">
             <div id="articletxt">
                 <h1>Lorem, ipsum.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis accusantium consequuntur iusto consequatur, molestias magni veniam ea fuga tenetur aliquid voluptatibus labore. Molestias quibusdam saepe aliquam inventore vitae beatae animi!</p>
@@ -40,5 +41,9 @@
             </p>
         </footer>
     </main>
+    <div id="enlargedPhoto">
+        <img src="./assets/photodog.jpg">
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
