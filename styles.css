@@ -50,6 +50,8 @@ footer{
     background: rgb(248, 245, 245);
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: center;
     
 }
 header nav{
@@ -96,8 +98,7 @@ header nav div:hover{
     }
 }
 #footertxt{
-    margin-top: 73px;
-    margin-left: 393px;
+    margin-top: 50px;
 }   
 article img{
     border: solid 3px rgb(170, 151, 151);
@@ -321,48 +322,6 @@ article #submittxt{
     background: rgba(14, 14, 173, 0.6);
     border: black solid 2px;
     width: 700px;
-}
-/* GALLERY */
-/* GALLERY */
-/* GALLERY */
-/* GALLERY */
-/* GALLERY */
-#articlegallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "img" "img"
-    "img" "img"
-    "img" "img";
-    height: 1050px;
-}
-.galleryimage{
-    width: 450px;
-    height: 300px;
-    margin: 0 auto;
-}
-.galleryimage:hover{
-    background: rgba(207, 207, 207, 0.43);
-}
-/* LIGTHBOX */
-/* LIGTHBOX */
-/* LIGTHBOX */
-/* LIGTHBOX */
-/* LIGTHBOX */
-#lightbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 100000000;
-    background: rgba(0,0,0,0.43);
-    display: none;
-}
-#lightbox img{
-    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.63);
 }
 
 /* media */

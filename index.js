@@ -8,3 +8,7 @@ smallimg.addEventListener('click', function(){
 lightbox.addEventListener('click', function(){
     lightbox.style.display = "none";
 })
+
+
+
+
