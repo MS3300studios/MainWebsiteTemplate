@@ -30,3 +30,20 @@
 #lightbox img{
     box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.63);
 }
+
+.imgbtn{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+#rightImgBtn{
+    margin-left: 100px;
+}
+#leftImgBtn{
+    margin-right: 100px;
+}
+
+#imgbtnContainer{
+    position: absolute;
+    top: 1000px;
+}
